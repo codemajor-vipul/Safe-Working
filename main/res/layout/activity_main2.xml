@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity"
+    android:layout_marginTop="3dp"
+    android:layout_marginLeft="9dp"
+    android:layout_marginRight="9dp"
+    android:background="@drawable/shp1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/OAA_name_of_sharer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bree_serif"
+            android:gravity="center"
+            android:text="Name of Sharer"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/comno"
+            android:text="s"
+            android:layout_marginLeft="180dp"
+            android:fontFamily="@font/bree_serif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/price_expected"
+        android:text="Price"
+        android:layout_width="match_parent"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/bree_serif"
+        android:textColor="#3a814e"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/app"
+        android:text="Price"
+        android:layout_width="match_parent"
+        android:textAlignment="viewStart"
+        android:textSize="15sp"
+        android:layout_marginLeft="250dp"
+        android:fontFamily="@font/bree_serif"
+        android:textColor="#000000"
+        android:background="@color/white_greyish"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/seat_details"
+        android:text="Seat Details"
+        android:layout_width="match_parent"
+        android:textAlignment="viewStart"
+        android:fontFamily="@font/bree_serif"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

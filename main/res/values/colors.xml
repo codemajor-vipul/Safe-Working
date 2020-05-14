@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#dc1c29</color>
+
+    <color name="background_color">#2a4d50</color>
+    <color name="newblue">#4a4bc2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+    <color name="buttonbackground">#daa740</color>
+    <color name="textcolor">#828284</color>
+    <drawable name="btnstyle">#a6a3a3</drawable>
+    <color name="call">#3a814e</color>
+    <color name="clearall">#095d96</color>
+
+
+    <color name="color1">#637281</color>
+    <color name="color2">#171818</color>
+    <color name="color3">#966009</color>
+    <color name="color4">#8d0996</color>
+    <color name="color5">#96092f</color>
+    <color name="color6">#c09e26</color>
+    <color name="color7">#60bd81</color>
+    <color name="color8">#1ddd96</color>
+    <color name="color9">#21d9c7</color>
+    <color name="color10">#2e87c3</color>
+
+</resources>
